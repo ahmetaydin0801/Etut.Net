@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etut.Application", "Etut.Application/Etut.Application.csproj", "{40A147DA-C2CA-4C31-B3DA-60CD19EDF9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etut.Domain", "Etut.Domain/Etut.Domain.csproj", "{608F4A15-A166-4F75-9C57-DA9149A395DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etut.Infrastructure", "Etut.Infrastructure/Etut.Infrastructure.csproj", "{49EF8C2D-864F-4E7C-A880-91C3E4B75EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etut.API", "Etut.API/Etut.API.csproj", "{F9CB6797-13FB-47F6-868F-6F0F4C6D1BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40A147DA-C2CA-4C31-B3DA-60CD19EDF9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A147DA-C2CA-4C31-B3DA-60CD19EDF9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A147DA-C2CA-4C31-B3DA-60CD19EDF9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A147DA-C2CA-4C31-B3DA-60CD19EDF9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608F4A15-A166-4F75-9C57-DA9149A395DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608F4A15-A166-4F75-9C57-DA9149A395DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608F4A15-A166-4F75-9C57-DA9149A395DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608F4A15-A166-4F75-9C57-DA9149A395DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EF8C2D-864F-4E7C-A880-91C3E4B75EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EF8C2D-864F-4E7C-A880-91C3E4B75EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EF8C2D-864F-4E7C-A880-91C3E4B75EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EF8C2D-864F-4E7C-A880-91C3E4B75EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CB6797-13FB-47F6-868F-6F0F4C6D1BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CB6797-13FB-47F6-868F-6F0F4C6D1BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CB6797-13FB-47F6-868F-6F0F4C6D1BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CB6797-13FB-47F6-868F-6F0F4C6D1BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
