@@ -13,6 +13,8 @@ builder.Services.AddControllers()
 // Register MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetProductsQuery).Assembly));
 
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(CQRSExample.Application.Behaviors.LoggingBehavior<,>));
+
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

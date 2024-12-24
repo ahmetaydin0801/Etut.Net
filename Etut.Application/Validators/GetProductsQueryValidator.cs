@@ -9,6 +9,8 @@ namespace CQRSExample.Application.Validators;
     {
         public GetProductsQueryValidator()
         {
-            // Add validation rules if needed
+            RuleFor(query => query)
+                .NotNull()
+                .WithMessage("Query cannot be null.");
         }
     }

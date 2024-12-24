@@ -9,11 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819ece71-20d2-4d4b-a3fb-19f303fb939c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Etut.API/Controllers/ProductsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Etut.Application/Handlers/GetProductsHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Etut.Application/Queries/GetProductsQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Etut.Application/Validators/GetProductsQueryValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Etut.Domain/Entities/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Etut.Application/Behaviors/LoggingBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Etut/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Etut/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etut.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Etut.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etut.Application/Etut.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Etut.Application/Etut.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etut.Application/Validators/GetProductsQueryValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Etut.Application/Validators/GetProductsQueryValidator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Etut.API: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734986827744</updated>
-      <workItem from="1734986829149" duration="1372000" />
+      <workItem from="1734986829149" duration="3415000" />
     </task>
     <servers />
   </component>
